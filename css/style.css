@@ -1,0 +1,107 @@
+h1 {
+	color: blue;
+	font-family: Arial;
+	font-size: 3em;
+	padding: 15px 15px 15px 15px;
+	margin: 10px 10px 10px 10px;
+	width: 55%;
+	border: 2px solid blue;
+}
+
+h2 {
+	color: #008080;
+	font-family: calibri;
+}
+
+h3 {
+	color: black;
+	font-size: 1em;
+	font-family: Arial;
+}
+
+body {
+	background-color: #FED8B1;
+	padding-left: 15em;
+	padding-right: 15em;
+}
+
+#footer {
+	color: red;
+	font-family: times new roman;
+	font-style: italic;
+	font-size: 20px;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+nav ul{
+	list-style-type: none;
+	padding-left: 2em;
+	padding-right: 2em;
+	margin: 0;
+	overflow: hidden;
+}
+
+nav ul li {
+	float: left;
+	margin: 0 5px;
+	width: 30%
+}
+
+nav ul li a {
+	display: block;
+	background-color: #20B2AA;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	width: 300px;
+	padding: 10px 0px 10px 0px;
+	border-radius: 5px;
+	font-family: Arial, sans-serif;
+}
+
+nav ul li a:hover {
+	background-color: black;
+	color: white;
+	border-radius: 20px;
+	text-transform: uppercase;
+}
+
+.travelintro {
+	background-color: #ccc;
+	position: relative;
+}
+
+.firstletter {
+	color: black;
+	font-weight: bold;
+	font-size: 4em;
+	position: relative;
+	top: 10px
+}
+
+.ltd {
+	color: black;
+	position:relative;
+	top:-5px;
+	font-size:0.75em;
+}
+
+#fixed {
+	background-color: #ccc;
+	width: 100px;
+	height: 300px;
+	position: fixed;
+	top: 50px;
+	right: 10px;
+}
+
+#map {
+	width: 1000px;
+	height: 700px;
+	background-color: #ccc;
+}
